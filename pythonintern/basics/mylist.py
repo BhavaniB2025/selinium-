@@ -34,8 +34,25 @@ print('c--->',c)
 print(c.pop(2))
 print(c.pop(3))
 
-print(c.remove("bhavani"),c.remove("manju"))
+print(c.remove("bhavani"))
 print(c)
+print(c.remove("chitra"))
+print(c)
+
+even_list=[]
+for i in range(1,25):
+    if i%2==0:
+        even_list.append(i)
+        print(even_list)
+    
+#list comprehention
+even_list_comp=[i for i in range(1,25) if i%2==0]
+print(even_list_comp)
+
+
+
+
+
 
 
 

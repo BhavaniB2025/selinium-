@@ -36,7 +36,7 @@ print(c[-1])
 #not modified for set
 
 z=(1,3,7,9,11)
-z[2]=22
+#z[2]=22
 print(z)    #not modified for tuple
 
 print(c[::])
@@ -105,9 +105,6 @@ for n in k:
 print(j)
         
 
-    
-    
-    
-    
-    
-    
+city={530068:"bangalore",570001:"Mysore",573201:"hassan",571401:"mandya",574142:"managalore",573134:"sakaleshpura",577101:"Chikmagalore",643001:"ooty",571234:"kushalnagara",571201:"madikeri"}
+for s in city:
+    print(s)

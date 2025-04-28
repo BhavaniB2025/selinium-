@@ -5,7 +5,7 @@ Created on 2 Apr 2025
 
 #from itertools import count
 '''
-
+'''
 count=5
 while count>0:
     print("hi world")
@@ -30,19 +30,20 @@ print (range(10))
     
     
 print(range(10))
-
+'''
+'''
 
 for n in range(1,50):
     print(n)    
-    
-    
+'''
+
 for n in range(1,100):
     if n==50:
         continue
     print(n)
   
 # for even number
-
+'''
 for n in range(1,100):
     if n%2==0:
         print(n)
@@ -60,31 +61,31 @@ for n in range(1,100,2):
     
     
     
-    '''
+    
     
 *                *****
 **               ****
 ***              ***
 ****             **
 '''
+'''
 
-    
 for n in range(1, 6):
    
     for m in range (n): 
         print("*", end=" ")
-        
-    print()
-    
-    
-for n in range(4,0,-1):
+        print()
+
+'''
+
+for n in range(5,0,-1):
     
     for m in range (n):
         print("*", end=" ")
         
     print()
-    
-    #
+
+
         
 for n in range(1, 6):
     
@@ -97,7 +98,7 @@ for n in range(1, 6):
         
     print()
     
-    #
+
 for n in range(1, 6):    
     
     
@@ -108,12 +109,40 @@ for n in range(1, 6):
         print("1", end=" ")   
         
     print()
+  
+
+for i in range(1,6):
+    print("*")
     
-
-
+    print("*",end=" ")
+    
+    print(" *",  end="  ")
+'''
+    *
+   **
+  ***
+ ****
+*****
+'''
+for j in range(5):
+    for k in range(5-j):           #j represents row  ,switching lines
+        print(" ",end=" ")
+    
+    for i in range(j):
+        print("*", end=" ")
+    print()
+        
+for j in range(5):
+    for k in range(5-j):           #j represents row  ,switching lines
+        print(" ",end=" ")
+        
+    for i in range(j):
+            print("*", end=" ")
+            print()
+    
+        
 
     
-
     
     
     
