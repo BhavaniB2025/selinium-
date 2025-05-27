@@ -3,6 +3,7 @@ Created on 23 May 2025
 
 @author: Bhavani
 '''
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -38,3 +39,4 @@ prompt_alert_btn = driver.find_element(By.ID, 'promptBtn')
 prompt_alert_btn.click()
 prompt_alert = driver.switch_to.alert
 prompt_alert_text = prompt_alert.text
+

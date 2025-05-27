@@ -3,7 +3,7 @@ Created on 11 May 2025
 
 @author: Bhavani
 '''
-'''
+
 from selenium import webdriver
 
 driver = webdriver.Chrome()
@@ -14,7 +14,6 @@ from selenium.webdriver import Chrome
 driver = Chrome()
 driver.get('http://selenium.dev/')
 
-'''
 from selenium import webdriver
 
 '1. launching the chrome browser'
