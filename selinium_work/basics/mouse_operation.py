@@ -23,10 +23,10 @@ driver.get('https://testautomationpractice.blogspot.com/')
 actions = ActionChains(driver)
 
 '''scrolling'''
-#actions.scroll_by_amount(0, 1000).perform()
+actions.scroll_by_amount(0, 1000).perform()
 
 '''mouse hover'''
-'''point_me = driver.find_element(By.XPATH ,'//*[@id="HTML3"]/div[1]/div/button')
+point_me = driver.find_element(By.XPATH ,'//*[@id="HTML3"]/div[1]/div/button')
 actions.move_to_element(point_me).perform()
 
 '''double click'''

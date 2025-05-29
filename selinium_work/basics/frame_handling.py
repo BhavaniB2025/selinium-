@@ -34,17 +34,6 @@ input_txt_bx = driver.find_element(By.XPATH, '/html/body/section/div/div/div/inp
 input_txt_bx.send_keys("bhavani")
 
 
-
-
-
-
-
-
-
-
-
-
-
 '''
 driver.switch_to.frame(13)
 singleframe_txt_bx = driver.find_element(By.XATH, '/html/body/section/div[1]/div/div/div/div[1]/div/ul/li[1]/a')
