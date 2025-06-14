@@ -19,7 +19,7 @@ class OrangeHRMLoginTest(unittest.TestCase):
         driver = webdriver.Chrome(options)
         
         'Navigate to OrangeHRM login page '
-        driver.get('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+        self.driver.get('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         
         '''Validate whether navigation is successful'''
         expected_url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
